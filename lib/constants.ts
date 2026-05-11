@@ -179,11 +179,11 @@ export const reviews = [
   {
     name: "Timothy K.",
     service: "Driveway/Patio/Sidewalk Cleaning",
-    text: ""These two young guys cleaned our driveway, patio and sidewalks.... and did an excellent job! I highly recommend them !",
+    text: "These two young guys cleaned our driveway, patio and sidewalks.... and did an excellent job! I highly recommend them !",
     rating: 5
   },
   {
-    name: "Ashley P.",
+    name: "Jana K.",
     service: "Commercial Sidewalks",
     text: "They did an excellent job, great communication, timely, focused work ethic and super attentive to the details 👏👏👏🔥",
     rating: 5
