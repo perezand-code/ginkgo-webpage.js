@@ -1,4 +1,4 @@
-export const quoteUrl = "https://ginkgo-quoting.netlify.app/quote";
+export const quoteUrl = "quote.ginkgopressurewashing.com/quote";
 
 export const navLinks = [
   { label: "Home", href: "#home" },
@@ -156,7 +156,7 @@ export const resultItems = [
     after: "/images/cleanresultuno.png"
   },
   {
-    service: "Sidewalk Cleaning",
+    service: "HouseWash Cleaning",
     caption: "High-traffic walkway restored for a cleaner arrival experience.",
     before: "/images/result2.png",
     after: "/images/cleanresult2.png"
@@ -171,21 +171,21 @@ export const resultItems = [
 
 export const reviews = [
   {
-    name: "Morgan H.",
+    name: "Sandra L.",
     service: "House Washing",
-    text: "Clear communication, on-time arrival, and the siding looked dramatically better the same day.",
+    text: "Andrew and Elvin did a fantastic job on my sidewalk and house! They got the job done quick and the difference was incredible. Highly, highly recommend!",
     rating: 5
   },
   {
-    name: "Caleb R.",
-    service: "Driveway Cleaning",
-    text: "The driveway and front walk looked brighter than they had in years. Very professional process.",
+    name: "Timothy K.",
+    service: "Driveway/Patio/Sidewalk Cleaning",
+    text: ""These two young guys cleaned our driveway, patio and sidewalks.... and did an excellent job! I highly recommend them !",
     rating: 5
   },
   {
     name: "Ashley P.",
     service: "Commercial Sidewalks",
-    text: "They handled our entrance areas before opening hours and made the whole property feel cleaner.",
+    text: "They did an excellent job, great communication, timely, focused work ethic and super attentive to the details 👏👏👏🔥",
     rating: 5
   }
 ];
@@ -219,6 +219,6 @@ export const faqs = [
   {
     question: "How do I get a quote?",
     answer:
-      "Click any Get a Quote, Request a Free Estimate, or Start Your Quote button on the site to submit details through the quote tool."
+      "Click any Get a Quote, Request a Free Estimate, or Start Your Quote button on the site to submit details through the quote tool. Click that checkmark under the Request a quote button to recieve instantaneous replies."
   }
 ];
