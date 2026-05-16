@@ -152,20 +152,20 @@ export const resultItems = [
   {
     service: "Concrete Cleaning",
     caption: "Driveway surface cleaning with sharp edge-to-edge improvement.",
-    before: "/images/result2.png",
-    after: "/images/cleanresult2.png"
+    before: "/images/cleanresult2.png",
+    after: "/images/result2.png"
   },
   {
     service: "HouseWash Cleaning",
     caption: "High-traffic walkway restored for a cleaner arrival experience.",
-    before: "/images/resultuno.png",
-    after: "/images/cleanresultuno.png"
+    before: "/images/cleanresultuno.png",
+    after: "/images/resultuno.png"
   },
   {
     service: "Patio Cleaning",
     caption: "Outdoor living surface refreshed for a brighter finish.",
-    before: "/images/result3.png",
-    after: "/images/cleanresult3.png"
+    before: "/images/cleanresult3.png",
+    after: "/images/result3.png"
   }
 ];
 
