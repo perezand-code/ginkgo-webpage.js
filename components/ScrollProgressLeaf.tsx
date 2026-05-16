@@ -61,30 +61,42 @@ export default function ScrollProgressLeaf() {
           strokeDasharray="6 10"
         />
         <g ref={leafRef} className="leaf-shadow">
-          <path
-            d="M0-24
-              C-19-24 -34-10 -33 8
-              C-25 4 -18 7 -13 15
-              C-8 6 -3 5 0 18
-              C3 5 8 6 13 15
-              C18 7 25 4 33 8
-              C34-10 19-24 0-24Z"
-          fill="#e6b64a"
-        />
-        <path
-          d="M0-17
-            C-1-6 -1 8 0 24
-            M0 0 C-8 2 -15 6 -22 12
-            M0 0 C8 2 15 6 22 12
-            M0-2 C-6-8 -13-12 -23-14
-            M0-2 C6-8 13-12 23-14"
-          fill="none"
-          stroke="#2b620b"
-          strokeWidth="1.7"
-          strokeLinecap="round"
-        />
-        <circle cx="0" cy="25" r="2" fill="#2b620b" />
-      </g>
+  <path
+    d="
+      M0 -26
+      C -22 -26 -40 -8 -34 10
+      C -22 6 -14 6 -7 16
+      C -3 4 3 4 7 16
+      C 14 6 22 6 34 10
+      C 40 -8 22 -26 0 -26Z
+    "
+    fill="#e6b64a"
+  />
+
+  <path
+    d="
+      M0 -18
+      C -2 -6 -2 10 0 26
+
+      M0 -2
+      C -8 -4 -16 -8 -22 -12
+
+      M0 -2
+      C 8 -4 16 -8 22 -12
+
+      M0 4
+      C -6 4 -12 8 -16 12
+
+      M0 4
+      C 6 4 12 8 16 12
+    "
+    fill="none"
+    stroke="#2b620b"
+    strokeWidth="1.6"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+</g>
         
       </svg>
     </aside>
