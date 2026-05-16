@@ -21,7 +21,7 @@ export default function ScrollProgressLeaf() {
       const point = path.getPointAtLength(total * Math.min(Math.max(progress, 0), 1));
       const ahead = path.getPointAtLength(total * Math.min(progress + 0.01, 1));
       const angle = Math.atan2(ahead.y - point.y, ahead.x - point.x) * (180 / Math.PI);
-      leaf.setAttribute("transform", `translate(${point.x} ${point.y}) rotate(${angle + 88})`);
+      leaf.setAttribute("transform", `translate(${point.x} ${point.y}) rotate(${angle + 95})`);
     };
 
     const onScroll = () => {
@@ -62,11 +62,30 @@ export default function ScrollProgressLeaf() {
         />
         <g ref={leafRef} className="leaf-shadow">
           <path
-            d="M0-18c-15 0-24 10-21 23 10 2 18 7 21 19 3-12 11-17 21-19C24-8 15-18 0-18Z"
-            fill="#e6b64a"
-          />
-          <path d="M0-10v31" stroke="#2b620b" strokeWidth="2" strokeLinecap="round" />
-        </g>
+            d="M0-24
+              C-19-24 -34-10 -33 8
+              C-25 4 -18 7 -13 15
+              C-8 6 -3 5 0 18
+              C3 5 8 6 13 15
+              C18 7 25 4 33 8
+              C34-10 19-24 0-24Z"
+          fill="#e6b64a"
+        />
+        <path
+          d="M0-17
+            C-1-6 -1 8 0 24
+            M0 0 C-8 2 -15 6 -22 12
+            M0 0 C8 2 15 6 22 12
+            M0-2 C-6-8 -13-12 -23-14
+            M0-2 C6-8 13-12 23-14"
+          fill="none"
+          stroke="#2b620b"
+          strokeWidth="1.7"
+          strokeLinecap="round"
+        />
+        <circle cx="0" cy="25" r="2" fill="#2b620b" />
+      </g>
+        
       </svg>
     </aside>
   );
