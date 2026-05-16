@@ -10,8 +10,8 @@ export default function ReviewsSection() {
             <p className="text-sm font-black uppercase tracking-[0.22em] text-gold">Reviews</p>
             <h2 className="mt-4 max-w-3xl text-4xl font-black leading-tight md:text-6xl">Trusted by homeowners and property teams.</h2>
           </div>
-          {/* TODO: Replace href with Google Business review link. */}
-          <CTAButton href="#" variant="primary">
+          {/* review link. */}
+          <CTAButton href="https://g.page/r/CTJrUftTAwsYEAI/review" variant="primary">
             Leave a Review
           </CTAButton>
         </div>
