@@ -21,7 +21,7 @@ export default function ScrollProgressLeaf() {
       const point = path.getPointAtLength(total * Math.min(Math.max(progress, 0), 1));
       const ahead = path.getPointAtLength(total * Math.min(progress + 0.01, 1));
       const angle = Math.atan2(ahead.y - point.y, ahead.x - point.x) * (180 / Math.PI);
-      leaf.setAttribute("transform", `translate(${point.x} ${point.y}) rotate(${angle + 95})`);
+      leaf.setAttribute("transform", `translate(${point.x} ${point.y}) rotate(${angle + 86})`);
     };
 
     const onScroll = () => {
