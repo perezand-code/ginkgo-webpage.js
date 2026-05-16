@@ -91,10 +91,10 @@ export default function Footer() {
               <a href={quoteUrl} className="transition hover:text-gold">
                 Online quote tool
               </a>
-              <a href="#" className="transition hover:text-gold">
+              <a href="https://www.instagram.com/ginkgo.clean/" className="transition hover:text-gold">
                 Instagram
               </a>
-              <a href="#" className="transition hover:text-gold">
+              <a href="https://www.facebook.com/p/Ginkgo-Pressure-Washing-61576586610723/" className="transition hover:text-gold">
                 Facebook
               </a>
             </div>
