@@ -60,44 +60,56 @@ export default function ScrollProgressLeaf() {
           strokeWidth="2"
           strokeDasharray="6 10"
         />
-        <g ref={leafRef} className="leaf-shadow">
-  <path
-    d="
-      M0 -26
-      C -22 -26 -40 -8 -34 10
-      C -22 6 -14 6 -7 16
-      C -3 4 3 4 7 16
-      C 14 6 22 6 34 10
-      C 40 -8 22 -26 0 -26Z
-    "
-    fill="#e6b64a"
-  />
-
-  <path
-    d="
-      M0 -18
-      C -2 -6 -2 10 0 26
-
-      M0 -2
-      C -8 -4 -16 -8 -22 -12
-
-      M0 -2
-      C 8 -4 16 -8 22 -12
-
-      M0 4
-      C -6 4 -12 8 -16 12
-
-      M0 4
-      C 6 4 12 8 16 12
-    "
+        <g ref={leafRef} transform="translate(0 0)">
+  <svg
+    x="-18"
+    y="-18"
+    width="36"
+    height="36"
+    viewBox="0 0 100 100"
     fill="none"
-    stroke="#2b620b"
-    strokeWidth="1.6"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  />
+  >
+    {/* Ginkgo leaf fan */}
+    <path
+      d="
+        M50 88
+        C46 72 38 61 25 52
+        C10 42 7 25 21 14
+        C33 4 44 18 50 31
+        C56 18 67 4 79 14
+        C93 25 90 42 75 52
+        C62 61 54 72 50 88
+        Z
+      "
+      fill="#8fd14f"
+      stroke="#1f5f2a"
+      strokeWidth="4"
+      strokeLinejoin="round"
+    />
+
+    {/* center notch */}
+    <path
+      d="M50 31 C47 43 47 55 50 88 C53 55 53 43 50 31Z"
+      fill="#6fbf3a"
+      opacity="0.55"
+    />
+
+    {/* veins */}
+    <path d="M50 88 L24 18" stroke="#1f5f2a" strokeWidth="2.5" opacity="0.75" />
+    <path d="M50 88 L36 15" stroke="#1f5f2a" strokeWidth="2.5" opacity="0.75" />
+    <path d="M50 88 L50 31" stroke="#1f5f2a" strokeWidth="2.5" opacity="0.75" />
+    <path d="M50 88 L64 15" stroke="#1f5f2a" strokeWidth="2.5" opacity="0.75" />
+    <path d="M50 88 L76 18" stroke="#1f5f2a" strokeWidth="2.5" opacity="0.75" />
+
+    {/* stem */}
+    <path
+      d="M50 88 C50 94 50 97 50 100"
+      stroke="#1f5f2a"
+      strokeWidth="5"
+      strokeLinecap="round"
+    />
+  </svg>
 </g>
-        
       </svg>
     </aside>
   );
