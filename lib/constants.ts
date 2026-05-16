@@ -1,4 +1,4 @@
-export const quoteUrl = "quote.ginkgopressurewashing.com/quote";
+export const quoteUrl = "https://quote.ginkgopressurewashing.com/quote"
 
 export const navLinks = [
   { label: "Home", href: "#home" },
